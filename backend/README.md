@@ -28,12 +28,17 @@ vim src/main/resources/application.properties
    # . Add/Update the following content:
 
 server.port=8080
+
 spring.datasource.url=jdbc:mariadb://<rds-endpoint>:3306/student_db
+
 spring.datasource.username=<db-username>
+
 spring.datasource.password=<db-password>
+
 spring.jpa.hibernate.ddl-auto=update
+
 spring.jpa.show-sql=true
-image
+
 
 
    # . Build the project:
