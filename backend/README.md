@@ -43,4 +43,3 @@ mvn clean package
    # . Run the backend application after creating frontend:
 
 java -jar target/student-registration-backend-0.0.1-SNAPSHOT.jar
-
